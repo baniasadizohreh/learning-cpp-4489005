@@ -7,6 +7,10 @@
 
 int main(){
     
-    std::cout << std::endl << std::endl;
+     int a=100;
+    int b,c;
+     b = a++;
+     c = a;
+     std::cout<<a << " "<<b<<" "<<c;
     return (0);
 }
